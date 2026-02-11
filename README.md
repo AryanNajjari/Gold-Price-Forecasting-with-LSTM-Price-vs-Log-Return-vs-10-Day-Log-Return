@@ -6,7 +6,7 @@
 
 This project investigates how target formulation affects deep learning performance in financial time series forecasting.
 
-Using historical gold price data, an LSTM model is trained under three different target definitions:
+Using historical gold price data (2016 - 2026), an LSTM model is trained under three different target definitions:
 
 1. **Adjusted Close Price**
 2. **1-Day Log Return**
