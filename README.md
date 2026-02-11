@@ -75,3 +75,7 @@ With this formulation, the LSTM successfully captured broader trend movements co
 * Financial returns are noisy and difficult to predict at short horizons.
 * Increasing forecast horizon improves learnability.
 * Target engineering can matter more than model complexity.
+
+
+## Data Source
+https://www.kaggle.com/datasets/sanaijlalshahrukh/gold-price-analysis-10-year-historical-data 
