@@ -34,9 +34,8 @@ This demonstrates how raw price modeling can lead to misleading training perform
 
 Log return is defined as:
 
-[
-r_t = \log\left(\frac{P_t}{P_{t-1}}\right)
-]
+r_t = log(price_today / price_yesterday)
+
 
 Log returns:
 
@@ -53,9 +52,8 @@ However, daily log returns are highly noisy. When trained with MSE, the model co
 
 To reduce noise and improve learnability, the target was reformulated as:
 
-[
-r_{10d} = \log\left(\frac{P_{t+10}}{P_t}\right)
-]
+r_10d = log(price_in_10_days / price_today)
+
 
 This measures the total compounded return over the next 10 days.
 
